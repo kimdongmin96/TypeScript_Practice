@@ -65,7 +65,7 @@ var newObj = {
 };
 ```
 
-Spread Operator 적용 시
+**Spread Operator** 적용 시
 
 ```
 var obj = {
