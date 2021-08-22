@@ -52,4 +52,26 @@ interface NewsFeed extends News {
 
 window 전역 공간에 있던 객체를 제거하고 store를 관리하는 전문 class를 만들어 필요한 기능들을 공급해 주어<br>
 사용하는 class 쪽에서 편리하게 사용하고 더 안전하게 사용할 수 있는 형태로 변경 작업
+<br><br>
+**Spread Operator** 관련 내용 <br>
+```
+var obj = {
+  a: 10,
+  b: 20
+};
+var newObj = {
+  a: obj.a,
+  b: obj.b
+};
+```
+<br>
+객체를 복사하는 경우, 새로운 객체인 ```newObj```에 새로운 속성들을 선언하고 각 속성에 ```obj```의 속성들을 일일이 접근해서 대입해줘야 한다.<br>
+하지만, **Spread Operator**를 사용할 경우 코드의 양이 확연히 줄어든다.<br>
+```
+var obj = {
+  a: 10,
+  b: 20
+};
+var newObj = {...obj};
+```
 
