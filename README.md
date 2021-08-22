@@ -42,3 +42,8 @@ interface NewsFeed extends News {
   .
 }
 ```
+***
+### classify files
+
+하나의 파일로 작성된 app.ts를 공통적으로 쓰이는 **core**, 시각적인 요소를 담당하는 **page**, 변수들의 모임 **types**<br>
+3가지로 크게 분류하여 파일을 세분화하고 import, export 문법과 전역변수에 대해 간단하게 
