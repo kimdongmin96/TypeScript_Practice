@@ -1,3 +1,8 @@
+### js to ts
+
+javascript로 작성된 문법을 typescript로 변경해보기    
+기본적인 변수명 타입 정의
+***
 ### Type-to-Interface
 
 typeAlias를 Interface로 변경해보기
