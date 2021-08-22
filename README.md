@@ -47,3 +47,9 @@ interface NewsFeed extends News {
 
 하나의 파일로 작성된 app.ts를 공통적으로 쓰이는 **core**, 시각적인 요소를 담당하는 **page**, 변수들의 모임 **types**<br>
 3가지로 크게 분류하여 파일을 세분화하고 import, export 문법과 전역변수에 대해 간단하게 
+***
+### global variable
+
+window 전역 공간에 있던 객체를 제거하고 store를 관리하는 전문 class를 만들어 필요한 기능들을 공급해 주어<br>
+사용하는 class 쪽에서 편리하게 사용하고 더 안전하게 사용할 수 있는 형태로 변경 작업
+
