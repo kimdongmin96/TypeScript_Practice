@@ -1,5 +1,5 @@
-# Typescript Practice <br>
-***
+# Typescript Practice <br><br>
+
 ### js to ts
 
 javascript로 작성된 문법을 typescript로 변경해보기    
