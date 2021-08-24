@@ -47,6 +47,7 @@ interface NewsFeed extends News {
 
 하나의 파일로 작성된 app.ts를 공통적으로 쓰이는 **core**, 시각적인 요소를 담당하는 **page**, 변수들의 모임 **types**<br>
 3가지로 크게 분류하여 파일을 세분화하고 import, export 문법과 전역변수에 대해 간단하게 
+<<<<<<< HEAD
 ***
 ### global variable
 
@@ -78,3 +79,5 @@ var newObj = {...obj};
 객체를 복사하는 경우, 새로운 객체인 *newObj* 에 새로운 속성들을 선언하고 각 속성에 *obj* 의 속성들을 일일이 접근해서 대입해줘야 한다.<br>
 하지만, **Spread Operator** 를 사용할 경우 코드의 양이 확연히 줄어든다.
 
+=======
+>>>>>>> parent of cc8773f (Merge branch 'main' of https://github.com/kimdongmin96/TypeScript_Practice into main)
